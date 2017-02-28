@@ -1,0 +1,1 @@
+# -*- coding: utf-8 -*-from Robot import *# Creation de constructeur unique pour les proxy des mouvementsclass Features:    def __init__(self, name):        self.name = name    def runOnRobot(self, Nao, feature):        self.run(Nao.NaoIP, feature)        
